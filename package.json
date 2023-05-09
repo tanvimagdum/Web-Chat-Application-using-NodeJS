@@ -1,0 +1,24 @@
+{
+  "name": "web-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "jasmine": "^4.6.0",
+    "request": "^2.88.2"
+  }
+}
